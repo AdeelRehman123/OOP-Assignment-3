@@ -1,0 +1,123 @@
+Transportation System – User Walkthrough
+Student Walkthrough
+Launching the System
+
+The user opens the transportation system application on their device.
+
+A welcome screen appears with the option to Login or Register.
+
+Logging in
+
+The student taps on the Login button.
+
+A login screen appears where the student enters their ID and password.
+
+After successful login, the system greets the student with their name and presents available actions.
+
+Making Payment
+
+The student taps on Make Payment.
+
+If the student has not already made their semester payment, the system processes the payment and updates their payment status.
+
+If the payment has already been made, the system shows a message: "You have already made your semester payment."
+
+Viewing Bus Details
+
+The student taps on View Buses to check available buses for their route.
+
+A list of buses appears with details including the route, available seats, and passengers.
+
+Assigning to Bus
+
+The student taps on Assign to Bus and selects a bus.
+
+If the student has completed their payment, the system adds them to the bus and decreases available seats.
+
+If the payment is pending, the student is prompted to make the payment before proceeding.
+
+Exiting
+
+The student taps Exit to log out of the system.
+
+Teacher Walkthrough
+Launching the System
+
+The user opens the transportation system application on their device.
+
+A welcome screen appears with the option to Login or Register.
+
+Logging in
+
+The teacher taps on the Login button.
+
+A login screen appears where the teacher enters their ID and OTP (One-Time Password).
+
+After successful login, the system greets the teacher with their name and presents available actions.
+
+Making Payment
+
+The teacher taps on Make Payment.
+
+If the teacher has not already made their monthly payment, the system processes the payment and updates their payment status.
+
+If the payment has already been made, the system shows a message: "You have already made your monthly payment."
+
+Viewing Bus Details
+
+The teacher taps on View Buses to check available buses for their route.
+
+A list of buses appears with details including the route, available seats, and passengers.
+
+Assigning to Bus
+
+The teacher taps on Assign to Bus and selects a bus.
+
+If the teacher has completed their payment, the system adds them to the bus and decreases available seats.
+
+If the payment is pending, the teacher is prompted to make the payment before proceeding.
+
+Exiting
+
+The teacher taps Exit to log out of the system.
+
+Admin Walkthrough
+Launching the System
+
+The user opens the transportation system application on their device.
+
+A welcome screen appears with the option to Login.
+
+Logging in
+
+The admin taps on the Login button.
+
+A login screen appears where the admin enters their ID and security token.
+
+After successful login, the system greets the admin with their name and presents administrative options.
+
+Managing Users
+
+The admin taps on Register User to add a new user (Student, Teacher, Staff).
+
+The admin enters the user's ID, name, and selects the user type, then registers the user in the system.
+
+Managing Routes
+
+The admin taps on Add Route to create a new bus route.
+
+The admin enters the route ID, start location, and end location, and adds it to the system.
+
+Managing Buses
+
+The admin taps on Add Bus to add a new bus to the system.
+
+The admin enters the bus ID and selects the route, and the bus is added to the available buses.
+
+Viewing All Buses
+
+The admin taps on View All Buses to see details of all buses, including routes, seats, and passengers.
+
+Exiting
+
+The admin taps Exit to log out of the system.

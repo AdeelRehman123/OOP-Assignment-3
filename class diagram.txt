@@ -1,0 +1,73 @@
+class User {
+  - userID: int
+  - name: string
+  - paymentStatus: bool
+  + login(): void
+  + makePayment(): void
+  + checkPayment(): bool
+  + getUserID(): int
+  + getName(): string
+}
+
+class Student {
+  + login(): void
+  + makePayment(): void
+}
+
+class Teacher {
+  + login(): void
+  + makePayment(): void
+}
+
+class Staff {
+  + login(): void
+  + makePayment(): void
+}
+
+class Admin {
+  + login(): void
+  + makePayment(): void
+}
+
+class Route {
+  - routeID: int
+  - startLocation: string
+  - endLocation: string
+  + displayRoute(): void
+  + getRouteID(): int
+  + getStartLocation(): string
+  + getEndLocation(): string
+}
+
+class Bus {
+  - busID: int
+  - route: Route
+  - seatsAvailable: int
+  - usersOnBoard: User[30]
+  - userCount: int
+  + addUser(user: User): void
+  + displayBusDetails(): void
+  + getBusID(): int
+  + getRouteID(): int
+}
+
+class TransportationSystem {
+  - users: User[100]
+  - buses: Bus[20]
+  - routes: Route[20]
+  - userCount: int
+  - busCount: int
+  - routeCount: int
+  + loadUsersFromFile(): void
+  + loadRoutesFromFile(): void
+  + loadBusesFromFile(): void
+  + saveUsersToFile(): void
+  + saveRoutesToFile(): void
+  + saveBusesToFile(): void
+  + registerUser(): void
+  + makePayment(): void
+  + addRoute(): void
+  + addBus(): void
+  + assignUserToBus(): void
+  + displayAllBuses(): void
+}
